@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18EC6A531F586F50008CE010 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC6A521F586F50008CE010 /* AppDelegate.swift */; };
+		18EC6A551F586F50008CE010 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC6A541F586F50008CE010 /* ViewController.swift */; };
+		18EC6A581F586F50008CE010 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EC6A561F586F50008CE010 /* Main.storyboard */; };
+		18EC6A5A1F586F50008CE010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EC6A591F586F50008CE010 /* Assets.xcassets */; };
+		18EC6A5D1F586F50008CE010 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EC6A5B1F586F50008CE010 /* LaunchScreen.storyboard */; };
+		18EC6A621F586F50008CE010 /* StackOverflow WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 18EC6A611F586F50008CE010 /* StackOverflow WatchKit App.app */; };
+		18EC6A681F586F50008CE010 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EC6A661F586F50008CE010 /* Interface.storyboard */; };
+		18EC6A6A1F586F50008CE010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EC6A691F586F50008CE010 /* Assets.xcassets */; };
+		18EC6A711F586F50008CE010 /* StackOverflow WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 18EC6A701F586F50008CE010 /* StackOverflow WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		18EC6A761F586F50008CE010 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC6A751F586F50008CE010 /* InterfaceController.swift */; };
+		18EC6A781F586F50008CE010 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC6A771F586F50008CE010 /* ExtensionDelegate.swift */; };
+		18EC6A7A1F586F50008CE010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EC6A791F586F50008CE010 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18EC6A631F586F50008CE010 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18EC6A471F586F50008CE010 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18EC6A601F586F50008CE010;
+			remoteInfo = "StackOverflow WatchKit App";
+		};
+		18EC6A721F586F50008CE010 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18EC6A471F586F50008CE010 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18EC6A6F1F586F50008CE010;
+			remoteInfo = "StackOverflow WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18EC6A811F586F50008CE010 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				18EC6A711F586F50008CE010 /* StackOverflow WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EC6A851F586F50008CE010 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				18EC6A621F586F50008CE010 /* StackOverflow WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		18EC6A4F1F586F50008CE010 /* StackOverflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackOverflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EC6A521F586F50008CE010 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18EC6A541F586F50008CE010 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18EC6A571F586F50008CE010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18EC6A591F586F50008CE010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18EC6A5C1F586F50008CE010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18EC6A5E1F586F50008CE010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EC6A611F586F50008CE010 /* StackOverflow WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StackOverflow WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EC6A671F586F50008CE010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		18EC6A691F586F50008CE010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18EC6A6B1F586F50008CE010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EC6A701F586F50008CE010 /* StackOverflow WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "StackOverflow WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EC6A751F586F50008CE010 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		18EC6A771F586F50008CE010 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		18EC6A791F586F50008CE010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18EC6A7B1F586F50008CE010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18EC6A4C1F586F50008CE010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EC6A6D1F586F50008CE010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18EC6A461F586F50008CE010 = {
+			isa = PBXGroup;
+			children = (
+				18EC6A511F586F50008CE010 /* StackOverflow */,
+				18EC6A651F586F50008CE010 /* StackOverflow WatchKit App */,
+				18EC6A741F586F50008CE010 /* StackOverflow WatchKit Extension */,
+				18EC6A501F586F50008CE010 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18EC6A501F586F50008CE010 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18EC6A4F1F586F50008CE010 /* StackOverflow.app */,
+				18EC6A611F586F50008CE010 /* StackOverflow WatchKit App.app */,
+				18EC6A701F586F50008CE010 /* StackOverflow WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18EC6A511F586F50008CE010 /* StackOverflow */ = {
+			isa = PBXGroup;
+			children = (
+				18EC6A521F586F50008CE010 /* AppDelegate.swift */,
+				18EC6A541F586F50008CE010 /* ViewController.swift */,
+				18EC6A561F586F50008CE010 /* Main.storyboard */,
+				18EC6A591F586F50008CE010 /* Assets.xcassets */,
+				18EC6A5B1F586F50008CE010 /* LaunchScreen.storyboard */,
+				18EC6A5E1F586F50008CE010 /* Info.plist */,
+			);
+			path = StackOverflow;
+			sourceTree = "<group>";
+		};
+		18EC6A651F586F50008CE010 /* StackOverflow WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				18EC6A661F586F50008CE010 /* Interface.storyboard */,
+				18EC6A691F586F50008CE010 /* Assets.xcassets */,
+				18EC6A6B1F586F50008CE010 /* Info.plist */,
+			);
+			path = "StackOverflow WatchKit App";
+			sourceTree = "<group>";
+		};
+		18EC6A741F586F50008CE010 /* StackOverflow WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				18EC6A751F586F50008CE010 /* InterfaceController.swift */,
+				18EC6A771F586F50008CE010 /* ExtensionDelegate.swift */,
+				18EC6A791F586F50008CE010 /* Assets.xcassets */,
+				18EC6A7B1F586F50008CE010 /* Info.plist */,
+			);
+			path = "StackOverflow WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18EC6A4E1F586F50008CE010 /* StackOverflow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EC6A861F586F50008CE010 /* Build configuration list for PBXNativeTarget "StackOverflow" */;
+			buildPhases = (
+				18EC6A4B1F586F50008CE010 /* Sources */,
+				18EC6A4C1F586F50008CE010 /* Frameworks */,
+				18EC6A4D1F586F50008CE010 /* Resources */,
+				18EC6A851F586F50008CE010 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18EC6A641F586F50008CE010 /* PBXTargetDependency */,
+			);
+			name = StackOverflow;
+			productName = StackOverflow;
+			productReference = 18EC6A4F1F586F50008CE010 /* StackOverflow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18EC6A601F586F50008CE010 /* StackOverflow WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EC6A821F586F50008CE010 /* Build configuration list for PBXNativeTarget "StackOverflow WatchKit App" */;
+			buildPhases = (
+				18EC6A5F1F586F50008CE010 /* Resources */,
+				18EC6A811F586F50008CE010 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18EC6A731F586F50008CE010 /* PBXTargetDependency */,
+			);
+			name = "StackOverflow WatchKit App";
+			productName = "StackOverflow WatchKit App";
+			productReference = 18EC6A611F586F50008CE010 /* StackOverflow WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		18EC6A6F1F586F50008CE010 /* StackOverflow WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EC6A7E1F586F50008CE010 /* Build configuration list for PBXNativeTarget "StackOverflow WatchKit Extension" */;
+			buildPhases = (
+				18EC6A6C1F586F50008CE010 /* Sources */,
+				18EC6A6D1F586F50008CE010 /* Frameworks */,
+				18EC6A6E1F586F50008CE010 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "StackOverflow WatchKit Extension";
+			productName = "StackOverflow WatchKit Extension";
+			productReference = 18EC6A701F586F50008CE010 /* StackOverflow WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18EC6A471F586F50008CE010 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Impulse Coupled Development";
+				TargetAttributes = {
+					18EC6A4E1F586F50008CE010 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4Q332864D3;
+						ProvisioningStyle = Automatic;
+					};
+					18EC6A601F586F50008CE010 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4Q332864D3;
+						ProvisioningStyle = Automatic;
+					};
+					18EC6A6F1F586F50008CE010 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4Q332864D3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 18EC6A4A1F586F50008CE010 /* Build configuration list for PBXProject "StackOverflow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18EC6A461F586F50008CE010;
+			productRefGroup = 18EC6A501F586F50008CE010 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18EC6A4E1F586F50008CE010 /* StackOverflow */,
+				18EC6A601F586F50008CE010 /* StackOverflow WatchKit App */,
+				18EC6A6F1F586F50008CE010 /* StackOverflow WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18EC6A4D1F586F50008CE010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EC6A5D1F586F50008CE010 /* LaunchScreen.storyboard in Resources */,
+				18EC6A5A1F586F50008CE010 /* Assets.xcassets in Resources */,
+				18EC6A581F586F50008CE010 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EC6A5F1F586F50008CE010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EC6A6A1F586F50008CE010 /* Assets.xcassets in Resources */,
+				18EC6A681F586F50008CE010 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EC6A6E1F586F50008CE010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EC6A7A1F586F50008CE010 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18EC6A4B1F586F50008CE010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EC6A551F586F50008CE010 /* ViewController.swift in Sources */,
+				18EC6A531F586F50008CE010 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EC6A6C1F586F50008CE010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EC6A781F586F50008CE010 /* ExtensionDelegate.swift in Sources */,
+				18EC6A761F586F50008CE010 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18EC6A641F586F50008CE010 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18EC6A601F586F50008CE010 /* StackOverflow WatchKit App */;
+			targetProxy = 18EC6A631F586F50008CE010 /* PBXContainerItemProxy */;
+		};
+		18EC6A731F586F50008CE010 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18EC6A6F1F586F50008CE010 /* StackOverflow WatchKit Extension */;
+			targetProxy = 18EC6A721F586F50008CE010 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18EC6A561F586F50008CE010 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18EC6A571F586F50008CE010 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18EC6A5B1F586F50008CE010 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18EC6A5C1F586F50008CE010 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		18EC6A661F586F50008CE010 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18EC6A671F586F50008CE010 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18EC6A7C1F586F50008CE010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18EC6A7D1F586F50008CE010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18EC6A7F1F586F50008CE010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 4Q332864D3;
+				INFOPLIST_FILE = "StackOverflow WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ImpulseCoupledDevelopment.StackOverflow.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		18EC6A801F586F50008CE010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 4Q332864D3;
+				INFOPLIST_FILE = "StackOverflow WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ImpulseCoupledDevelopment.StackOverflow.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		18EC6A831F586F50008CE010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4Q332864D3;
+				IBSC_MODULE = StackOverflow_WatchKit_Extension;
+				INFOPLIST_FILE = "StackOverflow WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ImpulseCoupledDevelopment.StackOverflow.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		18EC6A841F586F50008CE010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4Q332864D3;
+				IBSC_MODULE = StackOverflow_WatchKit_Extension;
+				INFOPLIST_FILE = "StackOverflow WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ImpulseCoupledDevelopment.StackOverflow.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		18EC6A871F586F50008CE010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4Q332864D3;
+				INFOPLIST_FILE = StackOverflow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ImpulseCoupledDevelopment.StackOverflow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		18EC6A881F586F50008CE010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4Q332864D3;
+				INFOPLIST_FILE = StackOverflow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ImpulseCoupledDevelopment.StackOverflow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18EC6A4A1F586F50008CE010 /* Build configuration list for PBXProject "StackOverflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EC6A7C1F586F50008CE010 /* Debug */,
+				18EC6A7D1F586F50008CE010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EC6A7E1F586F50008CE010 /* Build configuration list for PBXNativeTarget "StackOverflow WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EC6A7F1F586F50008CE010 /* Debug */,
+				18EC6A801F586F50008CE010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18EC6A821F586F50008CE010 /* Build configuration list for PBXNativeTarget "StackOverflow WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EC6A831F586F50008CE010 /* Debug */,
+				18EC6A841F586F50008CE010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18EC6A861F586F50008CE010 /* Build configuration list for PBXNativeTarget "StackOverflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EC6A871F586F50008CE010 /* Debug */,
+				18EC6A881F586F50008CE010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18EC6A471F586F50008CE010 /* Project object */;
+}
